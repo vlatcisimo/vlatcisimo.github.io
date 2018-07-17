@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+}
+    body {
+    background-color: #55d2f5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display:block;
+}
+
+.site-div {
+    padding: 10px;
+    border: 5px solid black;
+    width: 90%;
+    margin: 0 60px;
+    border: 1px solid #e1e1ea;
+    display: block;
+}
+
+.header1 {
+    display: block;
+    border: 1px solid #e1e1ea;
+    background-color: rgb(15, 77, 109);
+    margin-bottom:15px;
+}
+
+.logoimg {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    margin-left: 200px;
+}
+#logo2 {
+    max-width: 100%;
+    height:auto;
+    margin:0;
+    padding:0;
+}
+
+.navdiv {
+    border: 1px solid #e1e1ea;
+    width: 100%;
+    background-color: rgb(15, 77, 109);
+    margin-bottom: 10px;
+    float: left;
+    display: block;
+}
+nav ul li {
+    display: inline-block;
+    padding: 40px;
+    font-weight: bold;
+    font-size: 22px;
+}
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+        text-shadow: 0px 0px 20px black;
+}
+h1 {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    text-shadow: 0px 0px 30px black;
+}
+p {
+    text-align: left;
+    font-size: 15px;
+    padding: 5px;
+    color: white;
+    text-shadow: 0px 0px 30px black;
+}
+.hbc{
+    color:#81efdb;
+    font-weight:bold;
+}
+.slavenje{
+    text-align:left;
+}
+
+.img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    border: 1px solid black;
+    margin-left: 5px;
+}
+.cross {
+    max-width: 100%;
+    height: auto;
+    margin-left: 100px;
+}
+
+
+
+
+
+
+.main-content {
+    border: 1px solid #e1e1ea;
+    width: 65%;
+    height:1050px;
+    padding: 20px;
+    float: left;
+    background-color: rgb(15, 77, 109);
+    margin-bottom:10px;
+}
+
+.aside-right {
+    border: 1px solid #e1e1ea;
+    width: 35%;
+    height: 1050px;
+    float: left;
+    margin: 0;
+    padding: 7px;
+    background-color: rgb(15, 77, 109);
+    color: white;
+}
+.main-content,.aside-right {
+    display: inline-block;
+}
+
+.footer {
+    border: 1px solid #e1e1ea;
+    background-color: rgb(15, 77, 109);
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    float:left;
+}
+.footers {
+    border: 1px solid #e1e1ea;
+    width: 33%;
+    height: 200px;
+    background-color: rgb(15, 77, 109);
+    display: inline-table;
+    color: white;
+    padding-top: 40px;
+    float: left;
+}
+
+
+@media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    body,.navdiv,ul,.site-div,.main-content,.aside-right,.footers {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        float:left;
+        display:block;
+        margin-bottom:5px;
+    }
+    nav ul li {
+        display: block;
+        padding: 5px;
+        border-bottom: solid 1px #e1e1ea;
+    }
+
+    .logoimg {
+        display: none;
+    }
+    img{
+        margin:0;
+        padding:0;
+    }
+
+    .cross{
+        margin:0;
+    }
+}

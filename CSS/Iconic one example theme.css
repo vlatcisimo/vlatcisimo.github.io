@@ -1,0 +1,269 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Whole website */
+body {
+    background-color: #55d2f5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+}
+div {
+    overflow: auto;
+    background-color: rgba(255, 255, 255, 0.86);
+}
+
+.site-div {
+    padding: 0px;
+    width: 80%;
+    margin: 0 180px;
+    border: 1px solid #e1e1ea;
+    display: block;
+}
+
+
+/* Header */
+.header1 {
+    display: block;
+    background-color: #55d2f5;
+    margin: 0;
+    padding: 0;
+}
+
+.logoimg1 {
+    display: block;
+    float: right;
+    width: 15%;
+    height: 230px;
+    margin: 0;
+    padding: 10px;
+    transition: none;
+}
+.logoimg1:hover {
+    transform: none;
+}
+.logoimg2 {
+    display: block;
+    float: left;
+    width: 75%;
+    height: 230px;
+    margin: 0;
+    padding: 2px;
+    padding-left: 91px;
+    transition: none;
+}
+    .logoimg2:hover {
+        transform: none;
+    }
+
+
+
+/* Navigation bar */
+.navdiv {
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    display: block;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+    nav ul li {
+            float: left;
+    }
+        nav ul li a, .dropbtn {
+            display: block;
+            text-decoration: none;
+            padding: 10px 10px;
+            color: white;
+            text-align: left;
+        }
+
+                    /* Change the link color on hover */
+    nav ul li a:hover, .dropdown:hover .dropbtn {
+        background-color: red;
+}
+    nav ul li a:hover:not(.active) {
+        background-color: red;
+        color: white;
+    }
+    nav ul li a .active {
+        background-color: #4CAF50;
+            }
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+    z-index: 1;
+}
+
+    .dropdown-content a {
+        color: black;
+        padding: 10px 14px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+
+
+
+h1 {
+    text-align:center;
+    font-size: 30px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: 3px solid green;
+    width: 250px;
+
+}
+p {
+    text-align: left;
+    font-size: 19px;
+    padding: 5px;
+    color: black;
+}
+.hbc{
+    color:#81efdb;
+    font-weight:bold;
+}
+.slavenje{
+    text-align:left;
+}
+
+.img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    border: 1px solid black;
+    margin-left: 5px;
+}
+.cross {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+/* Main content of the website */
+
+.main-content {
+    border-right: 2px solid #cfcbcb;
+    width: 65%;
+    padding: 20px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+
+.aside-right {
+    border-left: 2px solid #cfcbcb;
+    width: 35%;
+    float: left;
+    margin: 0;
+    padding: 7px;
+}
+
+
+.main-content,.aside-right {
+    display: inline-block;
+}
+
+
+
+/* Footer of the website */
+
+
+.footers {
+    border-right: 2px solid #cfcbcb;
+    width: 50%;
+    height: 200px;
+    float: left;
+    color: #333;
+    padding-top: 40px;
+    float: left;
+    background-color: #e1e1ea;
+    text-align: center;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile and tablets phones: */
+    body, .navdiv, ul, .site-div, .main-content, .aside-right, .footers {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        float: left;
+        display: block;
+        margin-bottom: 5px;
+    }
+
+
+
+    nav ul li {
+        display: block;
+        float: left;
+        border: solid 1px #e1e1ea;
+        width: 50%;
+    }
+
+        nav ul li a {
+            padding: 5px;
+        }
+
+    .logoimg1 {
+        display: none;
+    }
+
+    .logoimg2 {
+        width: 100%;
+        height: 100px;
+        padding: 1px;
+        margin: 0;
+    }
+
+    img,.img-za-nas {
+        margin: 0;
+        padding: 0;
+        width:100%;
+        height:auto;
+    }
+
+    .cross {
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 23px;
+
+    }
+
+    p {
+        font-size: 17px;
+    }
+}

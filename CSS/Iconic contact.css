@@ -1,0 +1,48 @@
+.contact{
+    width:100%;
+}
+.fieldset{
+    background-color:gainsboro;
+    width:100%;
+    height:518px;
+}
+.sub-res{
+    width:70px;
+    height:30px;
+}
+.input-contact {
+    width: 300px;
+    height: 30px;
+}
+.textarea {
+    width: 500px;
+}
+.main-contact {
+    border-right: 2px solid #cfcbcb;
+    width: 65%;
+    padding: 20px;
+    float: left;
+    margin-bottom: 10px;
+    display:block;
+}
+.aside-contact {
+    border-left: 2px solid #cfcbcb;
+    width: 35%;
+    float: left;
+    margin: 0;
+    padding: 7px;
+    display: block;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile and tablets phones: */
+    body, .navdiv, ul, .site-div, .main-contact, .aside-contact, .footers, .fieldset, .input-contact, .textarea {
+        width: 100%;
+        margin: 0;
+        padding: 1px;
+        float: left;
+        display: block;
+        margin-bottom: 5px;
+    }
