@@ -21,3 +21,12 @@
     font-family: Courier New, Courier, monospace;
     font-weight:bolder;
 }
+
+
+@media only screen and (max-width: 600px) {
+    /* For mobile and tablets phones: */
+
+    aside div ul li a {
+        font-size: 15px;
+    }
+}

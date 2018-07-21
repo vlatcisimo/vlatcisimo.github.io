@@ -36,13 +36,72 @@
 
 
 
-@media only screen and (max-width: 768px) {
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 900px) {
+    body, .navdiv, ul, .site-div, .main-content, .aside-right, .footers {
+        width: 100%;
+        margin: 1px;
+        padding: 5px;
+        float: left;
+        display: block;
+    }
+
+
+
+    nav ul li {
+        display: block;
+        float: left;
+        border: solid 1px #e1e1ea;
+        width: 50%;
+    }
+
+        nav ul li a {
+            padding: 5px 15px;
+        }
+
+    .logoimg1 {
+        width: 15%;
+        height: 130px;
+        padding: 1px;
+        margin: 0;
+    }
+
+    .logoimg2 {
+        width: 70%;
+        height: 130px;
+        padding: 1px;
+        margin: 0;
+    }
+
+    img, .img-za-nas {
+        margin: 0;
+        padding: 5px;
+        width: 100%;
+        height: auto;
+    }
+
+
+
+    h1 {
+        font-size: 23px;
+    }
+
+    p {
+        font-size: 17px;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
     /* For mobile and tablets phones: */
     body, .navdiv, ul, .site-div, .main-contact, .aside-contact, .footers, .fieldset, .input-contact, .textarea {
         width: 100%;
         margin: 0;
-        padding: 1px;
+        padding: 2px;
         float: left;
         display: block;
         margin-bottom: 5px;
     }
+}

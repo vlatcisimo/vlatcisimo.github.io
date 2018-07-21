@@ -17,15 +17,14 @@
     display:block;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     /* For mobile and tablets phones: */
     body, .navdiv, ul, .site-div, .main-content, .aside-right, .footers {
         width: 100%;
-        margin: 0;
-        padding: 0;
+        margin: 1px;
+        padding: 1px;
         float: left;
         display: block;
-        margin-bottom: 5px;
     }
 
 
@@ -64,9 +63,13 @@
     }
 
     h1 {
-        font-size: 23px;
+        font-size: 20px;
+        width: 95%;
     }
 
     p {
-        font-size: 17px;
+        font-size: 15px;
+        padding: 0;
+        margin: 0;
     }
+}
