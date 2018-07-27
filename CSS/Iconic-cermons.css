@@ -1,0 +1,63 @@
+.aside-cermon{
+	margin: 0;
+	padding: 0;
+}
+
+
+.aside-cermon p{
+    font-size: 18px;
+}
+
+.aside-link{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin: 0;
+	padding: 10px;
+	width: 100%;
+}
+
+.aside-right .aside-link a{
+    text-decoration: none;
+    background-color: lightgrey;
+    border-bottom: 2px solid darkgreen;
+    font-family: arial;
+    font-size: 15px;
+    color: black;
+    padding-left: 5px;
+    width: 80%;
+    height: 40px;
+}
+
+.aside-right .aside-link a:hover{
+    background-color: rgb(156, 255, 123);
+    font-weight: bold;
+    color: red;
+}
+
+
+
+
+/* For tablets */
+@media only screen and (max-width: 900px) {
+.aside-right {
+display: flex;
+flex-wrap: wrap;
+}
+
+.aside-link{
+	width: 49%;
+	margin: 2px;
+}
+
+
+
+/* For mobile phones */
+@media only screen and (max-width: 600px) {
+.aside-right .aside-link a{
+width: 100%;
+}
+
+.aside-link{
+	width: 100%;
+}

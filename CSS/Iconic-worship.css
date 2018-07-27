@@ -1,0 +1,36 @@
+
+img:hover {
+    transform: scale(1.1);
+}
+
+
+@media only screen and (max-width: 600px) {
+    /* For mobile and tablets phones: */
+
+    .img-slavenje {
+        width: 45%;
+        padding: 0;
+        margin: 5px;
+    }
+
+
+    audio {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    /* For mobile and tablets phones: */
+
+    .img-slavenje {
+        width: 80%;
+        padding: 0;
+        margin: 5px;
+    }
+
+
+    audio {
+        width: 100%;
+    }
+}
+

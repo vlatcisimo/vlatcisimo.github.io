@@ -1,0 +1,28 @@
+main{
+    width: 100%;
+}
+
+.main-content {
+    border-right: 2px solid #cfcbcb;
+    width: 100%;
+    padding: 20px;
+    float: left;
+    margin-bottom: 10px;
+}
+.za nas {
+    font-family:'Times New Roman';
+    font-size:22px;
+    background-color: #b6ff00;
+}
+
+.img-za-nas{
+    width:500px;
+    height:auto;
+    display:block;
+}
+
+@media only screen and (max-width: 600px) {
+    /* For mobile and tablets phones: */
+  
+
+}
